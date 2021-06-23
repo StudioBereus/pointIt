@@ -19,6 +19,10 @@ namespace pointIt
             positionX = AxeX;
             positionY = AxeY;
         }
+        public override string toString()
+        {
+             Console.WriteLine("Le point a pour coorodnnées en X :" + this.positionX + " et  en Y :" + this.positionY);
+        }
         public void swap(Point point2){
             //X
             double temPosX = this.positionX;
